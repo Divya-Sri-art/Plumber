@@ -1,0 +1,116 @@
+.form-control {
+    text-align: center;
+    margin-top: 3rem;
+   
+}
+.form-control h1 {
+    font-size: 3.5em;
+    color: #182944;
+}
+.form-control p {
+    color: #6E7891;
+}
+.menu {
+   display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   gap: 2rem;
+   margin-top: 3rem;
+   text-align: center;
+}
+.page {
+    display: block;
+}
+
+.menu img {
+    border-radius: 1.2rem;
+}
+.menu h2 {
+    color: #182944;
+    margin-top: 1rem;
+}
+.menu p {
+    color: #6E7891;
+    line-height: 1.5rem;
+}
+.menu button {
+    color: #0D70E6;
+   margin-top: 1.7rem;
+   background-color: white;
+   border: none;
+   font-weight: bold;
+   font-size: 1rem;
+   cursor: pointer;
+
+}
+.container {
+    background-color: #0D70E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+   
+}
+.container img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.alt1 {
+    display:block;
+}
+.error {
+    color: white;
+}
+.alt {
+    display: block;
+}
+.error h1 {
+    font-size: 4rem;
+}
+.error p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+.error button {
+    padding: 1.6rem 1.9rem;
+    color: #0D70E6;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.error button:hover {
+    color: white;
+    background-color: rgb(114, 110, 110);
+}
+@media screen and (max-width:986px) {
+    .container {
+        display: block;
+    }
+    .container img {
+        object-position: center;
+    }
+  
+    .error h1 {
+        font-size: 3.5rem;
+    }
+    .error {
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:776px) {
+    .error h1 {
+        font-size: 2.7rem;
+    }
+}
+@media screen and (max-width:472px) {
+    .error h1 {
+        font-size: 2rem;
+    }
+    .container img {
+        width: 100%;
+    }
+}

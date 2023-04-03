@@ -1,0 +1,199 @@
+.form-control {
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+}
+.container_2 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+.alt {
+    display: block;
+}
+.swap {
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+.swap h3 {
+    color: #0b367a;
+    font-size: 1.6rem;
+}
+.swap p {
+    color: #6E7891;
+    margin-top: 1rem;
+}
+.btn {
+    font-size: 2.5rem;
+    color: rgb(6, 175, 241);
+}
+.alt_1{
+    display: block;
+}
+.text h4 {
+    font-size: 1.2rem;
+    color: #0b367a;
+}
+.text p {
+    color: rgb(6, 175, 241);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: .4rem;
+}
+.container {
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.container h4 {
+    color:rgb(6, 175, 241);
+}
+.container h1 {
+    color: #0b367a;
+    font-size: 2.5rem;
+}
+.container p {
+    color: #6E7891;
+    margin-top: 1.2rem;
+}
+.page { 
+    display: block;
+}
+.container_1  {
+    display: flex;
+    gap: 2rem;
+    
+}
+.container_1 h4 {
+    color: #0b367a;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.container_1 input {
+    padding: 20px 17px;
+    font-size: 1rem;
+    margin-top: .6rem;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 1rem;
+}
+.menu {
+    display: flex;
+    gap: 2rem;
+    
+}
+.menu h4 {
+    color: #0b367a;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.menu input {
+    padding: 20px 17px;
+    font-size: 1rem;
+    margin-top: .6rem;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 1rem;
+}
+.menu_1 {
+    margin-top: 1rem;
+}
+.menu_1 h4 {
+    color: #0b367a;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+.menu_1 input {
+    padding: 60px 140px;
+    font-size: 1rem;
+    margin-top: .6rem;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 1rem;
+}
+.menu_1 input:hover {
+    border-color: #0D70E6;
+}
+.container_1 input:hover {
+    border-color: #0D70E6;
+}
+.container input:hover {
+    border-color: #0D70E6;
+}
+.sendmessage-btn {
+    padding: 1.6rem 1.9rem;
+    color: white;
+    background-color: #0D70E6;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+@media screen and (max-width:993px) {
+    .form-control {
+        display: block;
+        text-align: center;
+    }
+   
+    .container_2 {
+        justify-content: center;
+    }
+    .swap h3 {
+        margin-top: 2rem;
+    }
+    .container_1 {
+        justify-content: center;
+    }
+    .menu{
+        justify-content: center;
+    }
+    .container h4 {
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width:768px) {
+ .container h1 {
+    font-size: 2rem;
+ }
+    
+    .container_1 input {
+        width: 100%;
+    }
+    .menu input {
+        width:100%;
+    }
+    .menu_1 input {
+        width:100%;
+    }
+    .container_1 {
+        line-height: .1rem;
+    }
+    .btn {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:468px) {
+    .container h1 {
+        font-size: 1.6rem;
+        margin-top: .8rem;
+    }
+    .text p {
+        font-size: 1rem;
+    }
+    .btn {
+        font-size: 1.8rem;
+    }
+}
+
+.faq {
+   padding: 4rem;
+}
+
+

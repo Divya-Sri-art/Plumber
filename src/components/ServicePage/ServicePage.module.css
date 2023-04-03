@@ -1,0 +1,243 @@
+
+.menu {
+    margin: 2rem;
+   
+    
+}
+
+.menu h1 {
+    font-size: 2.5rem;
+    color: #182944;
+}
+.menu p {
+    color: #6E7891;
+    margin-top: 1rem;
+}
+.menu button {
+    padding: 1.6rem 1.9rem;
+    color: white;
+    background-color: #0D70E6;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.image img {
+    width: 100% ;
+   
+    border-radius: 1rem;
+}
+
+
+@media screen and (max-width:991px) {
+    .menu {
+        text-align: center;
+     }
+    
+}
+@media screen and (max-width:767px) {
+    .menu h1{
+        font-size: 2rem;
+     }
+    
+}
+@media screen and (max-width:479px) {
+    .menu h1{
+        font-size: 1.9rem;
+     }
+     .menu button {
+        width: 100%;
+     }
+    
+}
+.container {
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    gap: 4rem;
+   
+}
+
+.alt {
+    display: block;
+    margin-top: 1.5rem;
+}
+.form-control h1 {
+    font-size: 2.5rem;
+    color: #182944;
+}
+.form-control p {
+    color: #6E7891;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+   
+}
+.form-control h2 {
+    font-size: 1.5rem;
+    color: #182944;
+    margin-top: 1rem;
+}
+.swap {
+ 
+  height: 450px;
+ width: 300px;
+ border: 1px solid whitesmoke;
+ box-sizing: border-box;
+ display: inline-block;
+ border-radius: 1rem;
+}
+
+.swap h4{
+    font-size: 1.5rem;
+    color: #182944;
+    
+}
+.swap p {
+    color: #6E7891;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+.swap h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+.swap input {
+    width: 100%;
+    padding: 13px ;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border: 1px solid whitesmoke;
+   box-sizing: border-box;
+   display: inline-block;
+   border-radius: 1rem;
+}
+.swap button {
+    padding: 1.6rem 1.9rem;
+    color: white;
+    background-color: #0D70E6;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+@media screen and (max-width:991px) {
+    .container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .swap {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .form-control h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:479px) {
+    .form-control h1 {
+        font-size: 1.7rem;
+    }
+}
+.menu1 {
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    text-align: center;
+   
+ }
+ .page {
+     display: block;
+    
+ }
+ 
+ .menu1 img {
+     border-radius: 1.2rem;
+    
+     
+ }
+ .menu1 h2 {
+     color: #182944;
+     margin-top: 1rem;
+   
+    
+ }
+ .menu1 p {
+     color: #6E7891;
+     line-height: 1.5rem;
+     
+    
+ }
+ .menu1 button {
+     color: #0D70E6;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: .4rem;
+    padding: 4px 5px;
+ 
+ }
+ .container_1 {
+    background-color: #151E3D;
+ }
+ .page_1 h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+ }
+
+ .page_1 button {
+    padding: 1.6rem 1.9rem;
+    color: #0D70E6;
+    background-color: white;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+   margin-top: 2rem;
+
+   
+ 
+}
+ .page_1 {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 12rem;
+ }
+ @media screen and (max-width:991px) {
+   
+    .page_1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    
+ }
+@media screen and (max-width:774px) {
+    .page_1 h1 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:474px) {
+    .page_1 h1 {
+        font-size: 1.7rem;
+    }
+    .page_1 button {
+        width: 100%;
+        
+    }
+}
